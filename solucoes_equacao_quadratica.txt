@@ -12,21 +12,21 @@ if (a != 0):
    	if (b > 0):
    		if (c > 0):
    			print(f'Sua equação é da forma {a}x²+{b}x+{c}=0.')
-   		elif (c = 0):
+   		elif (c == 0):
    			print(f'Sua equação é da forma {a}x²+{b}x=0')
    		else:
    			print(f'Sua equação é da forma {a}x²+{b}x-{fabs(c)}=0.')
-   	elif (b = 0):
+   	elif (b == 0):
    		if (c > 0):
    			print(f'Sua equação é da forma {a}x²+{c}=0.')
-   		elif (c = 0):
+   		elif (c == 0):
    			print(f'Sua equação é da forma {a}x²=0')
    		else:
    			print(f'Sua equação é da forma {a}x²-{fabs(c)}=0.')
    	else:
    		if (c > 0):
    			print(f'Sua equação é da forma {a}x²-{abs(b)}x+{c}=0.')
-   		elif (c = 0):
+   		elif (c == 0):
    			print(f'Sua equação é da forma {a}x²-{abs(b)}x=0')
    		else:
    			print(f'Sua equação é da forma {a}x²-{abs(b)}x-{fabs(c)}=0.')
@@ -34,21 +34,21 @@ if (a != 0):
    	if (b > 0):
    		if (c > 0):
    			print(f'Sua equação é da forma -{abs(a)}x²+{b}x+{c}=0.')
-   		elif (c = 0):
+   		elif (c == 0):
    			print(f'Sua equação é da forma -{abs(a)}x²+{b}x=0')
    		else:
    			print(f'Sua equação é da forma -{abs(a)}x²+{b}x-{fabs(c)}=0.')
-   	elif (b = 0):
+   	elif (b == 0):
    		if (c > 0):
    			print(f'Sua equação é da forma -{abs(a)}x²+{c}=0.')
-   		elif (c = 0):
+   		elif (c == 0):
    			print(f'Sua equação é da forma -{abs(a)}x²=0')
    		else:
    			print(f'Sua equação é da forma -{abs(a)}x²-{fabs(c)}=0.')
    	else:
    		if (c > 0):
    			print(f'Sua equação é da forma -{abs(a)}x²-{abs(b)}x+{c}=0.')
-   		elif (c = 0):
+   		elif (c == 0):
    			print(f'Sua equação é da forma -{abs(a)}x²-{abs(b)}x=0')
    		else:
    			print(f'Sua equação é da forma -{abs(a)}x²-{abs(b)}x-{fabs(c)}=0.')
