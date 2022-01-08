@@ -5,7 +5,7 @@ a = float(input(f'Digite o valor de a: '))
 b = float(input(f'Digite o valor de b: '))
 c = float(input(f'Digite o valor de c: '))
 
-if a != 0: 
+if (a != 0): 
    #Mostrar a equação
    from math import fabs
    if a > 0 and b > 0 and c > 0:
